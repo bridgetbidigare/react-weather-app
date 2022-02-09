@@ -1,38 +1,89 @@
-.App {
+body {
+  margin: 40px auto;
   text-align: center;
+  font-family: "Public Sans", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 450px;
+  min-width: 450px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 219, 219) 0%,
+    rgb(229, 248, 250) 90%
+  );
+  padding: 20px 35px 10px;
+  border-radius: 8px;
+  box-shadow: rgba(221, 221, 221, 0.397) 3px 3px 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchBar {
+  margin: 0 0 0 -10px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.685);
+  border: none;
+  border-radius: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.magnifier {
+  border: none;
+  background: transparent;
 }
-
-.App-link {
-  color: #61dafb;
+.locationButton {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  color: rgb(66, 56, 66);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.locationButton:hover {
+  color: #b69cd6;
+  transition: all 200ms ease-in-out;
+}
+.date {
+  font-size: 22px;
+  margin: 10px 0 -8px;
+  font-family: "Manrope", sans-serif;
+}
+.time {
+  font-size: 15px;
+}
+h1 {
+  font-size: 80px;
+  display: inline;
+}
+.celsius {
+  font-size: 25px;
+  color: rgb(68, 75, 95);
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.celsius:hover {
+  color: #b69cd6;
+  cursor: pointer;
+}
+h2 {
+  font-size: 35px;
+  margin: -12px 0 10px;
+  color: rgb(56, 67, 71);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.windSpeed {
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  color: #755b949c;
+}
+.temp {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Public Sans", sans-serif;
+}
+.footer {
+  font-size: 12px;
+  color: #acacac;
+}
+.footerLinks {
+  color: #acacac;
+  transition: all 200ms ease-in-out;
+}
+.footerLinks:hover {
+  color: #b69cd6;
 }
