@@ -13,7 +13,7 @@ export default function Temperature() {
           °C
         </a>
       </span>
-      <h2>DETROIT</h2>
+      <h2>DENVER</h2>
       <img src="/media/snowy.png" width="175" alt="" id="weatherImage" />
       <div className="windSpeed">
         wind speed: <span id="windSpeed"></span>15mph
