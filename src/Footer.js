@@ -8,7 +8,7 @@ export default function Footer() {
         <a
           href="https://github.com/bridgetbidigare/react-weather-app"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           class="footerLinks"
         >
           open-source code
@@ -17,7 +17,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/bridget-bidigare/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           class="footerLinks"
         >
           <i class="fab fa-linkedin"></i>
