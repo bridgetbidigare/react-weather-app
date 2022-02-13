@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <Search />
-      <Date />
-      <Temperature />
+        <Search />
+        <Date />
+        <Temperature />
       </div>
       <br />
-    <Footer />
+      <Footer />
     </div>
   );
 }

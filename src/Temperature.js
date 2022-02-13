@@ -8,8 +8,8 @@ export default function Temperature() {
         <span id="degree-temp">22</span>
         <span id="degree-symbol">°F</span>
       </h1>
-      <span class="celsius" id="celsius" title="Celsius">
-        <a href="/" class="celsius">
+      <span className="celsius" id="celsius" title="Celsius">
+        <a href="/" className="celsius">
           °C
         </a>
       </span>

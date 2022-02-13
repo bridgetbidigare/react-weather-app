@@ -4,12 +4,12 @@ import "./index.css";
 export default function Footer() {
   return (
     <div>
-      <span class="footer">
+      <span className="footer">
         <a
           href="https://github.com/bridgetbidigare/react-weather-app"
           target="_blank"
           rel="noopener noreferrer"
-          class="footerLinks"
+          className="footerLinks"
         >
           open-source code
         </a>{" "}
@@ -18,9 +18,9 @@ export default function Footer() {
           href="https://www.linkedin.com/in/bridget-bidigare/"
           target="_blank"
           rel="noopener noreferrer"
-          class="footerLinks"
+          className="footerLinks"
         >
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
       </span>
     </div>
