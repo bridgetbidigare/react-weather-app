@@ -13,7 +13,7 @@ function App() {
       <Date />
       <Temperature />
       </div>
-    <br />
+      <br />
     <Footer />
     </div>
   );
