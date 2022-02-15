@@ -1,8 +1,7 @@
 import React from "react";
 import './App.css';
 import Search from "./Search";
-import Date from "./Date";
-import Temperature from "./Temperature";
+import Weather from "./Weather";
 import Footer from "./Footer";
 
 function App() {
@@ -10,8 +9,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Search />
-        <Date />
-        <Temperature />
+        <Weather city="Denver" />
       </div>
       <br />
       <Footer />

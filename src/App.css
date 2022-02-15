@@ -38,11 +38,13 @@ body {
 }
 .date {
   font-size: 22px;
-  margin: 10px 0 -8px;
+  margin: 10px 0 -30px;
   font-family: "Manrope", sans-serif;
+  display: block;
 }
 .time {
   font-size: 15px;
+  display: block;
 }
 h1 {
   font-size: 80px;
@@ -66,7 +68,16 @@ h2 {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.windSpeed {
+.weatherDescription {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  color: #8e4db99d;
+  margin-top: 5px;
+}
+.weatherDetails {
   font-family: "Manrope", sans-serif;
   font-size: 12px;
   color: #755b949c;

@@ -1,15 +1,19 @@
 import React from "react";
-import "./index.css";
+import Moment from "react-moment";
+import "./App.css";
 
-export default function Date() {
+export default function Date(props) {
+  const dateToFormat = props.date;
+
   return (
     <div>
-      <div className="date" id="date">
-        Tuesday, January 25th, 2022
-      </div>
-      <div className="time" id="time">
-        12:00PM
-      </div>
+      <Moment className="date" format="dddd, MMMM DD, YYYY">
+        {dateToFormat}
+      </Moment>
+      <br />
+      <Moment className="time" format="h:mmA">
+        {dateToFormat}
+      </Moment>
     </div>
   );
 }
