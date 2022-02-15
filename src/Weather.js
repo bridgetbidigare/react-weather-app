@@ -5,7 +5,7 @@ import "./index.css";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
-  const [city, setCity] = useState(props.defaultCity);
+  /* const [city, setCity] = useState(props.defaultCity); */
 
   function handleResponse(response) {
     setWeatherData({
@@ -20,15 +20,15 @@ export default function Weather(props) {
     });
   }
 
-  function handleSubmit(event) {
+ /* function handleSubmit(event) {
     event.preventDefault();
     search();
-  }
+  } 
 
   function handleCityChange(event) {
     setCity(event.target.value);
   }
-
+*/
   function search() {
     const apiKey = "75c66def1228b9939b902b974cffcda2";
     let unit = "imperial";
