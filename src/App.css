@@ -82,6 +82,9 @@ h2 {
   font-size: 12px;
   color: #755b949c;
 }
+.weatherIcon {
+  width: 175px;
+}
 .temp {
   font-weight: bolder;
   font-size: 20px;

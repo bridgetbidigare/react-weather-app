@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import WeatherInfo from "./WeatherInfo";
 import Date from "./Date";
 import "./index.css";
 
@@ -61,23 +62,7 @@ if (weatherData.ready) {
         </button>
       </form>
       <Date rawDate={weatherData.date} />
-      <h1>
-        <span id="degree-temp">{Math.round(weatherData.temperature)}</span>
-        <span id="degree-symbol">°F</span>
-      </h1>
-      <span className="celsius" id="celsius" title="Celsius">
-        <a href="/" className="celsius">
-          °C
-        </a>
-      </span>
-      <h2>{weatherData.city}</h2>
-      <img src="/media/snowy.png" width="175" alt="" id="weatherImage" />
-      <div class="weatherDescription">{weatherData.description}</div>
-      <div className="weatherDetails">
-        wind speed: {Math.round(weatherData.wind)}mph
-        <br />
-        humidity: {Math.round(weatherData.humidity)}%
-      </div>
+      <WeatherInfo data={weatherData} />
     </div>
     );
   } else {
