@@ -86,9 +86,26 @@ h2 {
   width: 175px;
 }
 .temp {
+  color: #54406d;
   font-weight: bolder;
   font-size: 20px;
   font-family: "Public Sans", sans-serif;
+}
+.miniWeatherIcons {
+  width: 30px;
+}
+.row {
+  margin: 25px 0;
+}
+.col {
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 7px 0;
+  transition: all 200ms ease-in-out;
+}
+.col:hover {
+  background: #e5d4ec98;
+  box-shadow: rgba(187, 187, 187, 0.26) 3px 3px 10px;
 }
 .footer {
   font-size: 12px;
