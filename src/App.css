@@ -108,3 +108,8 @@ h2 {
 .footerLinks:hover {
   color: #b69cd6;
 }
+@media (max-width: 500px) {
+  .container {
+    max-width: 100%;
+  }
+}
