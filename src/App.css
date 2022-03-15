@@ -26,16 +26,6 @@ body {
   border: none;
   background: transparent;
 }
-.locationButton {
-  border: none;
-  background: transparent;
-  font-size: 18px;
-  color: rgb(66, 56, 66);
-}
-.locationButton:hover {
-  color: #b69cd6;
-  transition: all 200ms ease-in-out;
-}
 .date {
   font-size: 22px;
   margin: 10px 0 -30px;

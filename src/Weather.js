@@ -56,12 +56,6 @@ if (weatherData.ready) {
           className="magnifier col-1"
           title="Search"
         />
-        <button
-          className="locationButton col-1"
-          title="Current Location"
-        >
-          <i className="fas fa-map-marker-alt"></i>
-        </button>
       </form>
       <Date rawDate={weatherData.date} />
       <WeatherInfo data={weatherData} />
